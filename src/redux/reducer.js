@@ -1,5 +1,4 @@
-import {INCREMENT,DECREMENT} from './action_types'
-
+import {INCREMENT,DECREMENT}from './action_types'
 let initState = 0 //设置初始化状态
 export default function operaCount(preState=initState,action) {
   //规则：在reducer中不可以修改传递过来的参数
